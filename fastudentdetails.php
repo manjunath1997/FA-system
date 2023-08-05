@@ -10,7 +10,7 @@ Roll No:<input type='text' name='studentno' >
 	$_SESSION['studentno']=$_POST['studentno'];
 	$_SESSION['check']=true;} ?>
 
-<form action="fastudentdetails.php" method="POST">	<!--input type="submit" name="editdetails" value="editdetails"-->
+<form action="fastudentdetails.php" method="POST">	<!--input type="submit" name="editdetails" value='editdetails'-->
 <?php
 	if(isset($_SESSION['studentno'])){
 	if(!isset($_POST['editdetails'])){
